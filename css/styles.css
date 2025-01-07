@@ -21,6 +21,7 @@ img {
   text-transform: uppercase;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px;
 }
 
 .logo-studio {
@@ -39,6 +40,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 15px;
 }
 
 /* Navigation Bar */
@@ -61,6 +63,7 @@ img {
   line-height: 1.5;
   color: #2e2f42;
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -73,6 +76,10 @@ img {
   display: flex;
   gap: 24px;
   font-style: normal;
+}
+.contact-info-list {
+  display: flex;
+  gap: 40px;
 }
 
 .contact-item {
