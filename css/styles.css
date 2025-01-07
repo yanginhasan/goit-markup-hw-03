@@ -95,21 +95,21 @@ img {
 }
 
 /* Hero Section */
-.hero-image {
+.section-one {
   padding: 188px 0;
   text-align: center;
   background-color: #2e2f42;
   color: white;
 }
 
-.hero-title {
+.section-one {
   font-size: 56px;
   line-height: 1.07;
   max-width: 496px;
   margin: 0 auto 24px;
 }
 
-.hero-button {
+.section-one .container .hero-button {
   display: block;
   margin: 0 auto;
   padding: 16px 32px;
@@ -122,8 +122,8 @@ img {
   cursor: pointer;
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.section-one .container .hero-button:hover,
+.section-one .container .hero-button:focus {
   background-color: #404bbf;
 }
 
