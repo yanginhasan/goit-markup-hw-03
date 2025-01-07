@@ -1,9 +1,9 @@
 /* Genel Stiller */
 body {
-  font-family: "Roboto", sans-serif;
   color: #434455;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
   margin: 0;
-  background-color: #fff;
 }
 
 img {
@@ -14,14 +14,13 @@ img {
 
 /* Logo Stilleri */
 .logo {
+  font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 18px;
-  color: #4d5ae5;
-  text-transform: uppercase;
-  line-height: 1.17;
   letter-spacing: 0.03em;
-  margin-right: 76px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .logo-studio {
@@ -29,22 +28,20 @@ img {
 }
 
 /* Header */
-.main-header {
+header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 
-.container {
+header .container {
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 15px;
 }
 
-/* Navigation Bar */
-.nav-bar {
+nav {
   display: flex;
   align-items: center;
 }
@@ -61,9 +58,9 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
-  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -71,21 +68,19 @@ img {
   color: #404bbf;
 }
 
-/* Contact Info */
-.contact-info {
+.contact-list {
   display: flex;
   gap: 24px;
-  font-style: normal;
-}
-.contact-info-list {
-  display: flex;
-  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .contact-item {
   font-size: 16px;
   color: #434455;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
@@ -94,7 +89,7 @@ img {
   color: #404bbf;
 }
 
-/* Hero Section */
+/* Hero Bölümü */
 .hero-section {
   padding: 188px 0;
   text-align: center;
@@ -109,20 +104,18 @@ img {
   margin: 0 auto 24px;
 }
 
-/* Button Stilleri */
 .hero-button {
   display: block;
   margin: 0 auto;
   padding: 16px 32px;
-  min-width: 169px;
-  height: 56px;
   background-color: #4d5ae5;
   color: white;
   font-size: 18px;
-  font-weight: 500;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
 }
 
 .hero-button:hover,
@@ -130,7 +123,7 @@ img {
   background-color: #404bbf;
 }
 
-/* Features Section */
+/* Özellikler Bölümü (Peculiarities) */
 .features-section {
   padding: 120px 0;
 }
@@ -140,24 +133,24 @@ img {
   gap: 24px;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
-.feature-item {
-  text-align: center;
-  max-width: 264px;
-}
-
-.feature-title {
+.features-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
 }
 
-/* Team Section */
+.features-text {
+  max-width: 264px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+/* Takım Bölümü */
 .team-section {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -174,12 +167,9 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
-.team-member {
+.team-item {
   width: calc((100% - 72px) / 4);
   text-align: center;
   background-color: white;
@@ -187,13 +177,13 @@ img {
   border-radius: 4px;
 }
 
-.team-member h3 {
+.team-name {
   margin: 16px 0 8px;
   font-weight: 500;
   font-size: 20px;
 }
 
-.team-member p {
+.team-role {
   font-size: 16px;
   color: #434455;
 }
@@ -208,29 +198,27 @@ img {
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .portfolio-item {
   width: calc((100% - 72px) / 3);
   border: 1px solid #e7e9fc;
-  text-align: left;
+  text-align: center;
   border-radius: 4px;
+  overflow: hidden;
 }
 
 .portfolio-info {
   padding: 32px 16px;
 }
 
-.portfolio-item h3 {
-  margin-bottom: 8px;
+.portfolio-name {
   font-size: 20px;
   font-weight: 500;
+  margin-bottom: 8px;
 }
 
-.portfolio-item p {
+.portfolio-category {
   font-size: 16px;
   color: #434455;
 }
@@ -248,15 +236,9 @@ img {
   margin-bottom: 16px;
   font-size: 24px;
   font-weight: bold;
-  text-decoration: none;
-}
-
-.footer-studio {
-  color: #f4f4fd;
 }
 
 .footer-text {
   max-width: 264px;
   margin: 0 auto;
-  line-height: 1.5;
 }
