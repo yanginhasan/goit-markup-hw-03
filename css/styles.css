@@ -95,24 +95,27 @@ img {
 }
 
 /* Hero Section */
-.section-one {
+.hero-section {
   padding: 188px 0;
   text-align: center;
   background-color: #2e2f42;
   color: white;
 }
 
-.section-one {
+.hero-title {
   font-size: 56px;
   line-height: 1.07;
   max-width: 496px;
   margin: 0 auto 24px;
 }
 
-.section-one .container .hero-button {
+/* Button Stilleri */
+.hero-button {
   display: block;
   margin: 0 auto;
   padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
   background-color: #4d5ae5;
   color: white;
   font-size: 18px;
@@ -122,8 +125,8 @@ img {
   cursor: pointer;
 }
 
-.section-one .container .hero-button:hover,
-.section-one .container .hero-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 
