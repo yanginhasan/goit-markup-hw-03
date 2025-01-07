@@ -99,32 +99,32 @@ nav {
 }
 
 /* Hero Bölümü */
-.hero-image {
+.hero-section {
   padding: 188px 0;
-  text-align: center;
   background-color: #2e2f42;
-  color: white;
+  text-align: center;
 }
 
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
+  color: #ffffff;
   max-width: 496px;
-  margin: 0 auto 24px;
+  margin: 0 auto 48px;
 }
 
 .hero-button {
   display: block;
   margin: 0 auto;
-  padding: 16px 32px;
-  background-color: #4d5ae5;
-  color: white;
-  font-size: 18px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
   min-width: 169px;
   height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -183,6 +183,7 @@ nav {
   line-height: 1.11;
   color: #2e2f42;
   margin-bottom: 72px;
+  text-align: center;
 }
 
 .team-list {
